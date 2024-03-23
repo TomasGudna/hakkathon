@@ -22,21 +22,5 @@ gets the score 1. So if the method gets the hand [1, 1] the score would be 12
 */
 
 int CalculateScore(List<int> hand) {
-  int score = 0;
-  bool ifAce = false;
 
-  for(int idx=0; idx<hand.length; idx++) {
-    if (hand[idx] >= 11 || hand[idx] == 1) {
-      score += 10;
-      if (hand[idx] == 1 && ifAce == false) {
-        score += 1;
-        ifAce = true;
-      } else if (hand[idx] == 1 && ifAce == true) {
-        score -= 9;
-      }
-    } else if (hand[idx] < 11){
-      score += hand[idx];
-    }
-  }
-  return score;
 }

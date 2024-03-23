@@ -20,16 +20,4 @@ that the function will simply ask the user again to input an answer?
  */
 
 int OptionSelect(String statement, List<String> options) {
-  bool trueorfalse = true;
-  while (trueorfalse) {
-    print(statement);
-
-    for (int i = 0; i < options.length; i++) {
-      print("${i + 1 } ${options[i]}");
-    }
-
-    String input = stdin.readLineSync(encoding: Encoding.getByName("UTF-8"));
-    int result = int.tryParse(input);
-     return result;
-  }
 }

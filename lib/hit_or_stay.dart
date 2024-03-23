@@ -24,23 +24,5 @@ If he busts after drawing this card, break the loop as well.
  */
 
 void HitOrStay(List<int> playerHand, List<int> houseHand, List<int> deck){
-List<String> options = ['Hit', 'Stay', 'Quit'];
-bool active = true;
-while(active) {
-  int userOptionSelect = OptionSelect('Do you want to Hit or Stay?', options);
-  if(userOptionSelect==1) {
-    int myCard = DealCard(deck);
-    print('Your card is ${CardNamer(myCard)}');
-    playerHand.add(myCard);
-    if(CheckIfBusted(playerHand)==true) {
-      print('You Lose.');
-      break;
-    }
-    Status(playerHand, houseHand);
-  }
-  if(userOptionSelect==2) {
-    print('You stay');
-    active = false;
-  }
-}
+
 }
