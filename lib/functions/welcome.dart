@@ -9,5 +9,6 @@ that has no input and simply prints a text.
 */
 
 void Welcome(){
+  print("Sleek swimmer's body all muscled up and toned");
 
 }
