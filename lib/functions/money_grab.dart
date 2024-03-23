@@ -25,3 +25,8 @@ int PlaceBet(int bankRoll) {
 int BuyIn() {
 
 }
+
+void main() {
+  print("What would sir like to bet? hint: no accept wife or kids.");
+
+}
