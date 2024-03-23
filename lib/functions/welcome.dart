@@ -10,4 +10,8 @@ that has no input and simply prints a text.
 
 void Welcome(){
 
+  print('\u{1F600}'); // Grinning Face emoji
+  print("Welcome to the casino!");
+  print("Pppppppplace your bets!");
+
 }
