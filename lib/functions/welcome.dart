@@ -9,6 +9,7 @@ that has no input and simply prints a text.
 */
 
 void Welcome(){
+  print("Sleek swimmer's body all muscled up and toned");
 
   print('\u{1F600}'); // Grinning Face emoji
   print("Welcome to the casino!");
