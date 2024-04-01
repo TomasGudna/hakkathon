@@ -21,6 +21,27 @@ gets the score 1. So if the method gets the hand [1, 1] the score would be 12
   hand = [7, 1] -> Score 18
 */
 
-int CalculateScore(List<int> hand) {
 
+
+int CalculateScore(List<int> hand) {
+  int score = 0;
+  int aceCount = 0;
+
+  for (int card in hand) {
+    if (card == 1) {
+      score += 11;
+      aceCount++;
+    } else if (card >= 11) {
+      score += 10;
+    } else {
+      score += card;
+    }
+  }
+
+  while (score > 21 && aceCount > 0) {
+    score -= 10;
+    aceCount--;
+  }
+
+  return score;
 }

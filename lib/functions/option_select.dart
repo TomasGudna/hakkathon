@@ -13,6 +13,8 @@ and returns the users answer.
 Where do you want to eat?
 [1] BurgerKing
 [2] McDonalds
+
+
 Bonus point!
 Can you make it so that if the user does not select a correct option,
 that the function will simply ask the user again to input an answer?
@@ -20,4 +22,7 @@ that the function will simply ask the user again to input an answer?
  */
 
 int OptionSelect(String statement, List<String> options) {
+  List<String> OptionSelect = ['Hit', 'Stay', 'Double down', 'quit'];
+  print()
+  if ()
 }

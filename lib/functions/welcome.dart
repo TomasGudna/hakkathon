@@ -16,3 +16,6 @@ void Welcome(){
   print("Pppppppplace your bets!");
 
 }
+
+
+//Tómas var líka hér

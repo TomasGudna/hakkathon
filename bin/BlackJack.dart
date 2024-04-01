@@ -3,6 +3,7 @@ import 'package:BlackJack/lib.dart';
 import 'package:BlackJack/functions/welcome.dart';
 /*
   Can you puzzle the methods together to form the game?
+  LOL nei
  */
 
 void main() {

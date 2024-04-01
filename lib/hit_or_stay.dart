@@ -26,3 +26,5 @@ If he busts after drawing this card, break the loop as well.
 void HitOrStay(List<int> playerHand, List<int> houseHand, List<int> deck){
 
 }
+
+//Hvað í fokkanum eigum við að gera hérna???

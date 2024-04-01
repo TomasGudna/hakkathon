@@ -13,3 +13,6 @@ export 'check_if_busted.dart';
 export 'option_select.dart';
 export 'money_grab.dart';
 export 'check_winner.dart';
+
+
+//Tómas var hér
